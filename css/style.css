@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'futuraHand',cursive;
 }
 
 
@@ -37,7 +38,7 @@
 
 
 #container .text{
-    font-family: 'futuraHand',cursive;
+
 }
 
 @keyframes move {
@@ -74,4 +75,28 @@
     90.69% { transform: matrix3d(0.999, 0, 0, 0, 0, 0.999, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
     100% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
 }
+
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
